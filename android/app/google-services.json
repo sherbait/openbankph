@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "963776335493",
+    "project_id": "openbankph",
+    "storage_bucket": "openbankph.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:963776335493:android:d262b1598eaa21f466e3ec",
+        "android_client_info": {
+          "package_name": "com.flutterflow.openbankph"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAaNFuV9Pw9Ti-zRB6Z_c6okDFa0Y6C98Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:963776335493:android:518a290506c371d866e3ec",
+        "android_client_info": {
+          "package_name": "openbank.ph"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAaNFuV9Pw9Ti-zRB6Z_c6okDFa0Y6C98Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
