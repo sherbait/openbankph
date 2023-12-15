@@ -95,8 +95,7 @@ class _HomePageAltWidgetState extends State<HomePageAltWidget> {
                               borderRadius: BorderRadius.circular(40.0),
                             ),
                             child: Padding(
-                              padding: const EdgeInsetsDirectional.fromSTEB(
-                                  2.0, 2.0, 2.0, 2.0),
+                              padding: const EdgeInsets.all(2.0),
                               child: Container(
                                 width: 60.0,
                                 height: 60.0,
@@ -433,8 +432,7 @@ class _HomePageAltWidgetState extends State<HomePageAltWidget> {
                                         CrossAxisAlignment.start,
                                     children: [
                                       Padding(
-                                        padding: const EdgeInsetsDirectional.fromSTEB(
-                                            8.0, 8.0, 8.0, 8.0),
+                                        padding: const EdgeInsets.all(8.0),
                                         child: Container(
                                           width: double.infinity,
                                           height: 60.0,
@@ -743,8 +741,8 @@ class _HomePageAltWidgetState extends State<HomePageAltWidget> {
                                         ),
                                         Expanded(
                                           child: Align(
-                                            alignment: const AlignmentDirectional(
-                                                0.70, 0.00),
+                                            alignment:
+                                                const AlignmentDirectional(0.7, 0.0),
                                             child: Text(
                                               FFLocalizations.of(context)
                                                   .getText(
@@ -792,8 +790,8 @@ class _HomePageAltWidgetState extends State<HomePageAltWidget> {
                                         ),
                                         Expanded(
                                           child: Align(
-                                            alignment: const AlignmentDirectional(
-                                                0.70, 0.00),
+                                            alignment:
+                                                const AlignmentDirectional(0.7, 0.0),
                                             child: Text(
                                               FFLocalizations.of(context)
                                                   .getText(

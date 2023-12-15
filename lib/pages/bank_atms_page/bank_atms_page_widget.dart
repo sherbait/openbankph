@@ -182,8 +182,7 @@ class _BankAtmsPageWidgetState extends State<BankAtmsPageWidget>
                                       shape: BoxShape.rectangle,
                                     ),
                                     child: Padding(
-                                      padding: const EdgeInsetsDirectional.fromSTEB(
-                                          8.0, 8.0, 8.0, 8.0),
+                                      padding: const EdgeInsets.all(8.0),
                                       child: Row(
                                         mainAxisSize: MainAxisSize.max,
                                         children: [
@@ -274,8 +273,7 @@ class _BankAtmsPageWidgetState extends State<BankAtmsPageWidget>
                                                   BorderRadius.circular(40.0),
                                             ),
                                             child: Padding(
-                                              padding: const EdgeInsetsDirectional
-                                                  .fromSTEB(4.0, 4.0, 4.0, 4.0),
+                                              padding: const EdgeInsets.all(4.0),
                                               child: Icon(
                                                 Icons
                                                     .keyboard_arrow_right_rounded,

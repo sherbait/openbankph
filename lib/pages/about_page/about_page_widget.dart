@@ -123,8 +123,7 @@ class _AboutPageWidgetState extends State<AboutPageWidget> {
                         ],
                       ),
                       child: Padding(
-                        padding: const EdgeInsetsDirectional.fromSTEB(
-                            16.0, 16.0, 16.0, 16.0),
+                        padding: const EdgeInsets.all(16.0),
                         child: Row(
                           mainAxisSize: MainAxisSize.max,
                           children: [
@@ -140,8 +139,7 @@ class _AboutPageWidgetState extends State<AboutPageWidget> {
                                 ),
                               ),
                               child: Padding(
-                                padding: const EdgeInsetsDirectional.fromSTEB(
-                                    2.0, 2.0, 2.0, 2.0),
+                                padding: const EdgeInsets.all(2.0),
                                 child: ClipRRect(
                                   borderRadius: BorderRadius.circular(50.0),
                                   child: CachedNetworkImage(
@@ -242,8 +240,7 @@ class _AboutPageWidgetState extends State<AboutPageWidget> {
                           shape: BoxShape.rectangle,
                         ),
                         child: Padding(
-                          padding: const EdgeInsetsDirectional.fromSTEB(
-                              8.0, 8.0, 8.0, 8.0),
+                          padding: const EdgeInsets.all(8.0),
                           child: Row(
                             mainAxisSize: MainAxisSize.max,
                             children: [
@@ -267,7 +264,7 @@ class _AboutPageWidgetState extends State<AboutPageWidget> {
                                 ),
                               ),
                               Align(
-                                alignment: const AlignmentDirectional(0.90, 0.00),
+                                alignment: const AlignmentDirectional(0.9, 0.0),
                                 child: Icon(
                                   Icons.arrow_forward_ios,
                                   color: FlutterFlowTheme.of(context)
@@ -309,8 +306,7 @@ class _AboutPageWidgetState extends State<AboutPageWidget> {
                           shape: BoxShape.rectangle,
                         ),
                         child: Padding(
-                          padding: const EdgeInsetsDirectional.fromSTEB(
-                              8.0, 8.0, 8.0, 8.0),
+                          padding: const EdgeInsets.all(8.0),
                           child: Row(
                             mainAxisSize: MainAxisSize.max,
                             children: [
@@ -334,7 +330,7 @@ class _AboutPageWidgetState extends State<AboutPageWidget> {
                                 ),
                               ),
                               Align(
-                                alignment: const AlignmentDirectional(0.90, 0.00),
+                                alignment: const AlignmentDirectional(0.9, 0.0),
                                 child: Icon(
                                   Icons.arrow_forward_ios,
                                   color: FlutterFlowTheme.of(context)
@@ -380,8 +376,7 @@ class _AboutPageWidgetState extends State<AboutPageWidget> {
                           shape: BoxShape.rectangle,
                         ),
                         child: Padding(
-                          padding: const EdgeInsetsDirectional.fromSTEB(
-                              8.0, 8.0, 8.0, 8.0),
+                          padding: const EdgeInsets.all(8.0),
                           child: Row(
                             mainAxisSize: MainAxisSize.max,
                             children: [
@@ -405,7 +400,7 @@ class _AboutPageWidgetState extends State<AboutPageWidget> {
                                 ),
                               ),
                               Align(
-                                alignment: const AlignmentDirectional(0.90, 0.00),
+                                alignment: const AlignmentDirectional(0.9, 0.0),
                                 child: Icon(
                                   Icons.open_in_new,
                                   color: FlutterFlowTheme.of(context)
@@ -457,8 +452,7 @@ class _AboutPageWidgetState extends State<AboutPageWidget> {
                           shape: BoxShape.rectangle,
                         ),
                         child: Padding(
-                          padding: const EdgeInsetsDirectional.fromSTEB(
-                              8.0, 8.0, 8.0, 8.0),
+                          padding: const EdgeInsets.all(8.0),
                           child: Row(
                             mainAxisSize: MainAxisSize.max,
                             children: [
@@ -482,7 +476,7 @@ class _AboutPageWidgetState extends State<AboutPageWidget> {
                                 ),
                               ),
                               Align(
-                                alignment: const AlignmentDirectional(0.90, 0.00),
+                                alignment: const AlignmentDirectional(0.9, 0.0),
                                 child: Icon(
                                   Icons.arrow_forward_ios,
                                   color: FlutterFlowTheme.of(context)
@@ -524,8 +518,7 @@ class _AboutPageWidgetState extends State<AboutPageWidget> {
                           shape: BoxShape.rectangle,
                         ),
                         child: Padding(
-                          padding: const EdgeInsetsDirectional.fromSTEB(
-                              8.0, 8.0, 8.0, 8.0),
+                          padding: const EdgeInsets.all(8.0),
                           child: Row(
                             mainAxisSize: MainAxisSize.max,
                             children: [
@@ -549,7 +542,7 @@ class _AboutPageWidgetState extends State<AboutPageWidget> {
                                 ),
                               ),
                               Align(
-                                alignment: const AlignmentDirectional(0.90, 0.00),
+                                alignment: const AlignmentDirectional(0.9, 0.0),
                                 child: Icon(
                                   Icons.arrow_forward_ios,
                                   color: FlutterFlowTheme.of(context)
@@ -570,10 +563,10 @@ class _AboutPageWidgetState extends State<AboutPageWidget> {
                       width: 100.0,
                       height: 100.0,
                       decoration: const BoxDecoration(),
-                      alignment: const AlignmentDirectional(-1.00, 1.00),
+                      alignment: const AlignmentDirectional(-1.0, 1.0),
                       child: Text(
                         FFLocalizations.of(context).getText(
-                          'ftwevefe' /* Version 1.0.0 */,
+                          'fpbgqbhp' /* Version 1.0.1 */,
                         ),
                         style: FlutterFlowTheme.of(context).bodySmall,
                       ),

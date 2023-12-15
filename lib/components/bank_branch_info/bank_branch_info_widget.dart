@@ -67,7 +67,7 @@ class _BankBranchInfoWidgetState extends State<BankBranchInfoWidget> {
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
                 Align(
-                  alignment: const AlignmentDirectional(0.00, 0.00),
+                  alignment: const AlignmentDirectional(0.0, 0.0),
                   child: Container(
                     width: double.infinity,
                     constraints: const BoxConstraints(

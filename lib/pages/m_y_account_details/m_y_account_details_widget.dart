@@ -150,8 +150,7 @@ class _MYAccountDetailsWidgetState extends State<MYAccountDetailsWidget>
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
                     Padding(
-                      padding: const EdgeInsetsDirectional.fromSTEB(
-                          16.0, 16.0, 16.0, 16.0),
+                      padding: const EdgeInsets.all(16.0),
                       child: FutureBuilder<ApiCallResponse>(
                         future: OpenBankProjectGroup.getAccountInBankCall.call(
                           accountId: widget.accountId,
@@ -187,8 +186,7 @@ class _MYAccountDetailsWidgetState extends State<MYAccountDetailsWidget>
                               borderRadius: BorderRadius.circular(16.0),
                             ),
                             child: Padding(
-                              padding: const EdgeInsetsDirectional.fromSTEB(
-                                  12.0, 12.0, 12.0, 12.0),
+                              padding: const EdgeInsets.all(12.0),
                               child: Column(
                                 mainAxisSize: MainAxisSize.max,
                                 crossAxisAlignment: CrossAxisAlignment.start,
@@ -345,15 +343,16 @@ class _MYAccountDetailsWidgetState extends State<MYAccountDetailsWidget>
                                             CrossAxisAlignment.start,
                                         children: [
                                           Text(
-                                            (OpenBankProjectGroup
-                                                    .getAccountTransactionsCall
-                                                    .descriptions(
+                                            ((OpenBankProjectGroup
+                                                            .getAccountTransactionsCall
+                                                            .descriptions(
                                               columnGetAccountTransactionsResponse
                                                   .jsonBody,
                                             ) as List)
-                                                .map<String>(
-                                                    (s) => s.toString())
-                                                .toList()[transactionListIndex]
+                                                        .map<String>(
+                                                            (s) => s.toString())
+                                                        .toList()[
+                                                    transactionListIndex])
                                                 .toString(),
                                             style: FlutterFlowTheme.of(context)
                                                 .bodyLarge,
@@ -363,16 +362,16 @@ class _MYAccountDetailsWidgetState extends State<MYAccountDetailsWidget>
                                                 const EdgeInsetsDirectional.fromSTEB(
                                                     0.0, 5.0, 0.0, 0.0),
                                             child: Text(
-                                              (OpenBankProjectGroup
-                                                      .getAccountTransactionsCall
-                                                      .completedDates(
+                                              ((OpenBankProjectGroup
+                                                              .getAccountTransactionsCall
+                                                              .completedDates(
                                                 columnGetAccountTransactionsResponse
                                                     .jsonBody,
                                               ) as List)
-                                                  .map<String>(
-                                                      (s) => s.toString())
-                                                  .toList()[
-                                                      transactionListIndex]
+                                                          .map<String>((s) =>
+                                                              s.toString())
+                                                          .toList()[
+                                                      transactionListIndex])
                                                   .toString(),
                                               style:
                                                   FlutterFlowTheme.of(context)
@@ -387,10 +386,10 @@ class _MYAccountDetailsWidgetState extends State<MYAccountDetailsWidget>
                                             CrossAxisAlignment.end,
                                         children: [
                                           Text(
-                                            '₱ ${(OpenBankProjectGroup.getAccountTransactionsCall.amounts(
+                                            '₱ ${((OpenBankProjectGroup.getAccountTransactionsCall.amounts(
                                               columnGetAccountTransactionsResponse
                                                   .jsonBody,
-                                            ) as List).map<String>((s) => s.toString()).toList()[transactionListIndex].toString()}',
+                                            ) as List).map<String>((s) => s.toString()).toList()[transactionListIndex]).toString()}',
                                             style: FlutterFlowTheme.of(context)
                                                 .titleLarge,
                                           ),
@@ -418,10 +417,10 @@ class _MYAccountDetailsWidgetState extends State<MYAccountDetailsWidget>
                                                 ),
                                               ),
                                               Text(
-                                                '₱ ${(OpenBankProjectGroup.getAccountTransactionsCall.newBalances(
+                                                '₱ ${((OpenBankProjectGroup.getAccountTransactionsCall.newBalances(
                                                   columnGetAccountTransactionsResponse
                                                       .jsonBody,
-                                                ) as List).map<String>((s) => s.toString()).toList()[transactionListIndex].toString()}',
+                                                ) as List).map<String>((s) => s.toString()).toList()[transactionListIndex]).toString()}',
                                                 style:
                                                     FlutterFlowTheme.of(context)
                                                         .bodySmall

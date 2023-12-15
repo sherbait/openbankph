@@ -48,7 +48,7 @@ class _PauseCardWidgetState extends State<PauseCardWidget> {
         color: FlutterFlowTheme.of(context).darkBackground,
       ),
       child: Padding(
-        padding: const EdgeInsetsDirectional.fromSTEB(24.0, 24.0, 24.0, 24.0),
+        padding: const EdgeInsets.all(24.0),
         child: Column(
           mainAxisSize: MainAxisSize.max,
           children: [

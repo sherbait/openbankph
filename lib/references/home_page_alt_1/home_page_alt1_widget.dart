@@ -138,8 +138,7 @@ class _HomePageAlt1WidgetState extends State<HomePageAlt1Widget>
                             borderRadius: BorderRadius.circular(40.0),
                           ),
                           child: Padding(
-                            padding: const EdgeInsetsDirectional.fromSTEB(
-                                2.0, 2.0, 2.0, 2.0),
+                            padding: const EdgeInsets.all(2.0),
                             child: Container(
                               width: 60.0,
                               height: 60.0,
@@ -516,8 +515,7 @@ class _HomePageAlt1WidgetState extends State<HomePageAlt1Widget>
                                     borderRadius: BorderRadius.circular(40.0),
                                   ),
                                   child: Padding(
-                                    padding: const EdgeInsetsDirectional.fromSTEB(
-                                        8.0, 8.0, 8.0, 8.0),
+                                    padding: const EdgeInsets.all(8.0),
                                     child: Icon(
                                       Icons.monetization_on_rounded,
                                       color:
@@ -627,8 +625,7 @@ class _HomePageAlt1WidgetState extends State<HomePageAlt1Widget>
                                     borderRadius: BorderRadius.circular(40.0),
                                   ),
                                   child: Padding(
-                                    padding: const EdgeInsetsDirectional.fromSTEB(
-                                        8.0, 8.0, 8.0, 8.0),
+                                    padding: const EdgeInsets.all(8.0),
                                     child: Icon(
                                       Icons.monetization_on_rounded,
                                       color:
@@ -738,8 +735,7 @@ class _HomePageAlt1WidgetState extends State<HomePageAlt1Widget>
                                     borderRadius: BorderRadius.circular(40.0),
                                   ),
                                   child: Padding(
-                                    padding: const EdgeInsetsDirectional.fromSTEB(
-                                        8.0, 8.0, 8.0, 8.0),
+                                    padding: const EdgeInsets.all(8.0),
                                     child: Icon(
                                       Icons.monetization_on_rounded,
                                       color:
@@ -849,8 +845,7 @@ class _HomePageAlt1WidgetState extends State<HomePageAlt1Widget>
                                     borderRadius: BorderRadius.circular(40.0),
                                   ),
                                   child: Padding(
-                                    padding: const EdgeInsetsDirectional.fromSTEB(
-                                        8.0, 8.0, 8.0, 8.0),
+                                    padding: const EdgeInsets.all(8.0),
                                     child: Icon(
                                       Icons.monetization_on_rounded,
                                       color:

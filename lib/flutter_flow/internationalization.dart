@@ -380,11 +380,6 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'es': 'Saltar por ahora',
       'tl': '',
     },
-    '1eac148w': {
-      'en': 'Field is required.',
-      'es': '',
-      'tl': '',
-    },
     'cw1bgq3c': {
       'en': 'Field is required.',
       'es': '',
@@ -2091,8 +2086,8 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'es': '',
       'tl': '',
     },
-    'ftwevefe': {
-      'en': 'Version 1.0.0',
+    'fpbgqbhp': {
+      'en': 'Version 1.0.1',
       'es': '',
       'tl': '',
     },

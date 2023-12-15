@@ -500,8 +500,7 @@ class _BudgetDetailsWidgetState extends State<BudgetDetailsWidget> {
                                                   BorderRadius.circular(40.0),
                                             ),
                                             child: Padding(
-                                              padding: const EdgeInsetsDirectional
-                                                  .fromSTEB(8.0, 8.0, 8.0, 8.0),
+                                              padding: const EdgeInsets.all(8.0),
                                               child: Icon(
                                                 Icons.monetization_on_rounded,
                                                 color:

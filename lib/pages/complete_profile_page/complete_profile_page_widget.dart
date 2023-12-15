@@ -581,21 +581,6 @@ class _CompleteProfilePageWidgetState extends State<CompleteProfilePageWidget>
                               !_model.formKey.currentState!.validate()) {
                             return;
                           }
-                          if (_model.uploadedFileUrl.isEmpty) {
-                            ScaffoldMessenger.of(context).showSnackBar(
-                              const SnackBar(
-                                content: Text(
-                                  'Please add an avatar for your profile.',
-                                  style: TextStyle(
-                                    color: Color(0x00000000),
-                                  ),
-                                ),
-                                duration: Duration(milliseconds: 4000),
-                                backgroundColor: Color(0x00000000),
-                              ),
-                            );
-                            return;
-                          }
 
                           await buttonLoginUsersRecord.reference
                               .update(createUsersRecordData(
